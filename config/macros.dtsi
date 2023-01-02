@@ -2,7 +2,7 @@ macro_right_tab: macro_right_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_right_tab";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LSHFT>, <&kp RIGHT_BRACKET>;
+bindings = <&kp LGUI(LS(RIGHT_BRACKET))>;
 };
 macro_show_clipboard: macro_show_clipboard{
 compatible = "zmk,behavior-macro";
@@ -14,7 +14,7 @@ macro_left_tab: macro_left_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_left_tab";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LSHIFT>, <&kp LEFT_BRACKET>;
+bindings = <&kp LGUI(LS(LEFT_BRACKET))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
