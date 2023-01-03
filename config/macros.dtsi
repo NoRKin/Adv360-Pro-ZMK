@@ -1,3 +1,15 @@
+macro_go_insomnia: macro_go_insomnia{
+compatible = "zmk,behavior-macro";
+label = "macro_go_insomnia";
+#binding-cells = <0>;
+bindings = <&kp LC(SPACE)>, <&kp I>, <&kp N>, <&kp ENTER>;
+};
+macro_go_spotify: macro_go_spotify{
+compatible = "zmk,behavior-macro";
+label = "macro_go_spotify";
+#binding-cells = <0>;
+bindings = <&kp LC(SPACE)>, <&kp S>, <&kp P>, <&kp ENTER>;
+};
 macro_go_kitty: macro_go_kitty{
 compatible = "zmk,behavior-macro";
 label = "macro_go_kitty";
